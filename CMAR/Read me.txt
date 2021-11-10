@@ -1,0 +1,11 @@
+At first We used Weka to Split data into train and test set using RemovePercentage which is located in
+package weka.filters.unsupervised.instance and 85% split. Then using invert selection feature I made a
+test set for our data.
+Then I loaded the training data set to create association rules using Asociate tab in Weka and fp-growth
+algorithm and 35 rules to be generated which then I usded log to save it in <<rule>> file.
+Then I used subset python function to find more general rule rather specific rules to delete them as redundant.
+after this I had no time so I just tell you what I am gonna do probably: We then compute chi square and use a
+threshold to remove some other data. Lastly, we use support to find coverage of our rules and use it to remove
+low coverage rules.
+Now that we have all of the rules that we need we use it to objectively classify data and find the accuracy of
+data for test set.

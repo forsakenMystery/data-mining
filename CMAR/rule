@@ -1,0 +1,47 @@
+=== Run information ===
+
+Scheme:       weka.associations.FPGrowth -P 2 -I -1 -N 35 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1
+Relation:     supermarket-weka.filters.unsupervised.instance.RemovePercentage-P85.0
+Instances:    694
+Attributes:   217
+              [list of attributes omitted]
+=== Associator model (full training set) ===
+
+FPGrowth found 37 rules (displaying top 35)
+
+ 1. [baking needs=t, biscuits=t, beef=t]: 116 ==> [bread and cake=t]: 108   <conf:(0.93)> lift:(1.33) lev:(0.04) conv:(3.9) 
+ 2. [milk-cream=t, tissues-paper prd=t, beef=t]: 114 ==> [bread and cake=t]: 106   <conf:(0.93)> lift:(1.33) lev:(0.04) conv:(3.83) 
+ 3. [vegetables=t, tissues-paper prd=t, beef=t]: 126 ==> [bread and cake=t]: 117   <conf:(0.93)> lift:(1.33) lev:(0.04) conv:(3.81) 
+ 4. [vegetables=t, biscuits=t, beef=t]: 123 ==> [bread and cake=t]: 114   <conf:(0.93)> lift:(1.33) lev:(0.04) conv:(3.72) 
+ 5. [frozen foods=t, beef=t, total=high]: 123 ==> [bread and cake=t]: 114   <conf:(0.93)> lift:(1.33) lev:(0.04) conv:(3.72) 
+ 6. [baking needs=t, beef=t, total=high]: 117 ==> [bread and cake=t]: 108   <conf:(0.92)> lift:(1.32) lev:(0.04) conv:(3.54) 
+ 7. [beef=t, total=high]: 142 ==> [bread and cake=t]: 131   <conf:(0.92)> lift:(1.32) lev:(0.05) conv:(3.58) 
+ 8. [fruit=t, tissues-paper prd=t, beef=t]: 115 ==> [bread and cake=t]: 106   <conf:(0.92)> lift:(1.32) lev:(0.04) conv:(3.48) 
+ 9. [baking needs=t, tissues-paper prd=t, beef=t]: 122 ==> [bread and cake=t]: 112   <conf:(0.92)> lift:(1.32) lev:(0.04) conv:(3.36) 
+10. [fruit=t, baking needs=t, beef=t]: 134 ==> [bread and cake=t]: 123   <conf:(0.92)> lift:(1.32) lev:(0.04) conv:(3.38) 
+11. [vegetables=t, beef=t, total=high]: 121 ==> [bread and cake=t]: 111   <conf:(0.92)> lift:(1.32) lev:(0.04) conv:(3.33) 
+12. [baking needs=t, biscuits=t, department137=t]: 119 ==> [bread and cake=t]: 109   <conf:(0.92)> lift:(1.31) lev:(0.04) conv:(3.27) 
+13. [fruit=t, vegetables=t, baking needs=t, beef=t]: 118 ==> [bread and cake=t]: 108   <conf:(0.92)> lift:(1.31) lev:(0.04) conv:(3.25) 
+14. [vegetables=t, baking needs=t, frozen foods=t, beef=t]: 116 ==> [bread and cake=t]: 106   <conf:(0.91)> lift:(1.31) lev:(0.04) conv:(3.19) 
+15. [baking needs=t, frozen foods=t, beef=t]: 137 ==> [bread and cake=t]: 125   <conf:(0.91)> lift:(1.31) lev:(0.04) conv:(3.19) 
+16. [vegetables=t, frozen foods=t, tissues-paper prd=t, total=high]: 125 ==> [bread and cake=t]: 114   <conf:(0.91)> lift:(1.31) lev:(0.04) conv:(3.15) 
+17. [vegetables=t, frozen foods=t, biscuits=t, tissues-paper prd=t]: 123 ==> [bread and cake=t]: 112   <conf:(0.91)> lift:(1.31) lev:(0.04) conv:(3.1) 
+18. [vegetables=t, frozen foods=t, biscuits=t, total=high]: 122 ==> [bread and cake=t]: 111   <conf:(0.91)> lift:(1.3) lev:(0.04) conv:(3.08) 
+19. [fruit=t, vegetables=t, frozen foods=t, total=high]: 133 ==> [bread and cake=t]: 121   <conf:(0.91)> lift:(1.3) lev:(0.04) conv:(3.1) 
+20. [frozen foods=t, tissues-paper prd=t, total=high]: 153 ==> [bread and cake=t]: 139   <conf:(0.91)> lift:(1.3) lev:(0.05) conv:(3.09) 
+21. [department137=t, total=high]: 131 ==> [bread and cake=t]: 119   <conf:(0.91)> lift:(1.3) lev:(0.04) conv:(3.05) 
+22. [frozen foods=t, biscuits=t, tissues-paper prd=t, total=high]: 120 ==> [bread and cake=t]: 109   <conf:(0.91)> lift:(1.3) lev:(0.04) conv:(3.03) 
+23. [fruit=t, vegetables=t, baking needs=t, total=high]: 129 ==> [bread and cake=t]: 117   <conf:(0.91)> lift:(1.3) lev:(0.04) conv:(3) 
+24. [frozen foods=t, margarine=t, total=high]: 116 ==> [bread and cake=t]: 105   <conf:(0.91)> lift:(1.3) lev:(0.03) conv:(2.93) 
+25. [fruit=t, vegetables=t, frozen foods=t, beef=t]: 116 ==> [bread and cake=t]: 105   <conf:(0.91)> lift:(1.3) lev:(0.03) conv:(2.93) 
+26. [biscuits=t, beef=t]: 158 ==> [bread and cake=t]: 143   <conf:(0.91)> lift:(1.3) lev:(0.05) conv:(2.99) 
+27. [frozen foods=t, tissues-paper prd=t, beef=t]: 126 ==> [bread and cake=t]: 114   <conf:(0.9)> lift:(1.3) lev:(0.04) conv:(2.93) 
+28. [vegetables=t, pet foods=t, total=high]: 125 ==> [bread and cake=t]: 113   <conf:(0.9)> lift:(1.3) lev:(0.04) conv:(2.91) 
+29. [frozen foods=t, pet foods=t, total=high]: 125 ==> [bread and cake=t]: 113   <conf:(0.9)> lift:(1.3) lev:(0.04) conv:(2.91) 
+30. [baking needs=t, frozen foods=t, biscuits=t, total=high]: 134 ==> [bread and cake=t]: 121   <conf:(0.9)> lift:(1.29) lev:(0.04) conv:(2.9) 
+31. [milk-cream=t, vegetables=t, frozen foods=t, total=high]: 123 ==> [bread and cake=t]: 111   <conf:(0.9)> lift:(1.29) lev:(0.04) conv:(2.86) 
+32. [milk-cream=t, vegetables=t, frozen foods=t, tissues-paper prd=t]: 133 ==> [bread and cake=t]: 120   <conf:(0.9)> lift:(1.29) lev:(0.04) conv:(2.87) 
+33. [biscuits=t, party snack foods=t, total=high]: 121 ==> [bread and cake=t]: 109   <conf:(0.9)> lift:(1.29) lev:(0.04) conv:(2.82) 
+34. [tissues-paper prd=t, pet foods=t, total=high]: 121 ==> [bread and cake=t]: 109   <conf:(0.9)> lift:(1.29) lev:(0.04) conv:(2.82) 
+35. [milk-cream=t, fruit=t, vegetables=t, pet foods=t]: 120 ==> [bread and cake=t]: 108   <conf:(0.9)> lift:(1.29) lev:(0.04) conv:(2.79) 
+
